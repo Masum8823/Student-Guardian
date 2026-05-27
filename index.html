@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Student Guardian</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white rounded-[2.5rem] p-10 w-full max-w-[440px] shadow-2xl">
+        <!-- Login Form -->
+        <div id="loginSection">
+            <div class="header-icon bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <i class="fas fa-shield-halved text-blue-900 text-2xl"></i>
+            </div>
+            <h1 class="text-3xl font-extrabold text-blue-950 text-center mb-2">Sign In</h1>
+            <p class="text-gray-400 text-center mb-8">Access your mindfulness companion.</p>
+            <form id="loginForm" class="space-y-5">
+                <input type="email" id="loginEmail" placeholder="Student Email" required class="custom-input w-full p-4 bg-gray-50 rounded-2xl outline-none border-none focus:ring-2 focus:ring-blue-600">
+                <input type="password" id="loginPass" placeholder="Password" required class="custom-input w-full p-4 bg-gray-50 rounded-2xl outline-none border-none focus:ring-2 focus:ring-blue-600">
+                <button type="submit" class="w-full bg-[#002663] text-white p-5 rounded-2xl font-bold text-lg hover:bg-blue-800 transition shadow-lg active:scale-95">Sign In &rarr;</button>
+            </form>
+            <p class="mt-8 text-center text-gray-500 text-sm">New here? <button onclick="toggleView('reg')" class="text-blue-900 font-bold hover:underline">Create an account</button></p>
+        </div>
+
+        <!-- Register Form -->
+        <div id="regSection" class="hidden">
+            <h1 class="text-3xl font-extrabold text-blue-950 text-center mb-6">Join Student Guardian</h1>
+            <form id="regForm" class="space-y-5">
+                <input type="text" id="regName" placeholder="Full Name" required class="custom-input w-full p-4 bg-gray-50 rounded-2xl outline-none border-none focus:ring-2 focus:ring-blue-600">
+                <input type="email" id="regEmail" placeholder="Email Address" required class="custom-input w-full p-4 bg-gray-50 rounded-2xl outline-none border-none focus:ring-2 focus:ring-blue-600">
+                <input type="password" id="regPass" placeholder="Create Password" required class="custom-input w-full p-4 bg-gray-50 rounded-2xl outline-none border-none focus:ring-2 focus:ring-blue-600">
+                <button type="submit" class="w-full bg-[#002663] text-white p-5 rounded-2xl font-bold text-lg hover:bg-blue-800 transition shadow-lg">Sign Up &rarr;</button>
+            </form>
+            <p class="mt-8 text-center text-gray-500 text-sm">Have an account? <button onclick="toggleView('login')" class="text-blue-900 font-bold hover:underline">Login</button></p>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
