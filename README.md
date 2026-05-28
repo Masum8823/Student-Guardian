@@ -64,3 +64,30 @@ The system calculates your **Net Performance Score** using a sophisticated weigh
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/YourUsername/Student-Guardian.git
+2. **📂 Open the Project:**
+
+Simply open `index.html` in any modern web browser such as:
+
+- Google Chrome
+- Microsoft Edge
+- Safari
+
+---
+
+## 🌐 Live Demo
+
+Visit **Student Guardian Live:**
+
+
+---
+
+## 🚀 Future Roadmap
+
+- Integration with **Chart.js** for visual trend graphs.
+- Dark Mode support for late-night studying.
+- Customizable point weights based on user goals.
+- Export data to PDF/CSV for academic counseling.
+
+---
+
+© 2024 Student Guardian System | Engineered for Excellence
