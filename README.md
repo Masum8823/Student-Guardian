@@ -13,6 +13,14 @@
 
 ---
 
+## 🌐 Live Demo
+
+Visit **Student Guardian Live:**
+https://masum8823.github.io/Student-Guardian/
+
+
+---
+
 ## ✨ Core Features
 
 ### 🔐 Secure Authentication
@@ -71,14 +79,6 @@ Simply open `index.html` in any modern web browser such as:
 - Google Chrome
 - Microsoft Edge
 - Safari
-
----
-
-## 🌐 Live Demo
-
-Visit **Student Guardian Live:**
-https://masum8823.github.io/Student-Guardian/
-
 
 ---
 
